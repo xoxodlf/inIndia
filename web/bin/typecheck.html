@@ -1,0 +1,35 @@
+<html>
+<head>
+<script type="text/javascript">
+function fh(){
+	document.write("function in head");
+}
+</script>
+</head>
+<body>
+<script type="text/javascript">
+var i = 10;
+var f = 1.2345;
+var s = "Minnie";
+
+function fb(){
+	document.write("function in body");
+}
+
+t1=typeof(i);
+t2=typeof(f);
+t3=typeof(s);
+
+document.write(t1);document.write("<br>");
+document.write(t2);document.write("<br>");
+document.write(t3);document.write("<br>");document.write("<br>");
+
+document.write(typeof(i));document.write("<br>");
+document.write(typeof(f));document.write("<br>");
+document.write(typeof(s));document.write("<br>");document.write("<br>");
+
+document.write(typeof(fh));document.write("<br>");
+document.write(typeof(fb));document.write("<br>");
+</script>
+</body>
+</html>

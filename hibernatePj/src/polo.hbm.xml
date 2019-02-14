@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"D://DTD/hibernate-mapping-3.0.dtd">
+	
+	<hibernate-mapping>
+		<class name="d4.polo" table="d4_tbl">
+			<id name="sno">
+				<generator class="assigned"></generator>
+			</id>
+			
+			<property name="name"></property>
+			<property name="sub1"></property>
+			<property name="sub2"></property>
+			<property name="sub3"></property>
+			<property name="total"></property>
+			<property name="grade"></property>
+			<property name="result"></property>
+			
+		</class>
+	</hibernate-mapping>

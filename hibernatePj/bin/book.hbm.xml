@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"D://DTD/hibernate-mapping-3.0.dtd">
+	
+	<hibernate-mapping>
+		<class name="d3.book" table="d3_tbl">
+			<id name="bno">
+				<generator class="assigned"></generator>
+			</id>
+			
+			<property name="title"></property>
+			<property name="author"></property>
+			<property name="numberOfBooks"></property>
+			<property name="publications"></property>
+		</class>
+	</hibernate-mapping>

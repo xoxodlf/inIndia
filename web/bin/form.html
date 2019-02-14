@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript" src="formJS.js"></script>
+</head>
+
+<body>
+
+<form name="form1" onsubmit="validate(form1);" onreset="toAlert('Try again');">
+<p>Age</p>
+<input type="text" name="age" onchange="validateAge();"/>
+<input type="button" value="Increase Age" name ="increaseAGe" onclick="increaseAge(form1)"/>
+<p id="ageComent"/>
+<p>How can we get in touch with you?</p>
+<table>
+<tr><td>Name:</td><td><input type="text" name="name" onchange="validateName(form1)" size="40"/></td></tr>
+<tr><td>Phone #:</td><td><input type="text" name="phone" size="20"/></td></tr>
+<tr><td>Fax #:</td><td><input type="text" name="fax" size="20"/></td></tr>
+</table>
+<input type="submit" value="submit feedback"/>
+<input type="reset" value="start over"/>
+</form>
+</body>
+</html>

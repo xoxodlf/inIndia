@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"D://DTD/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+    <class name="dto.UserDTO" table="USERS">
+        <id name="userNo"/>
+        <property name="name"/>
+        <property name="mail"/>
+        <property name="password"/>
+        <property name="status"/>
+    	<list name="reservations" cascade="all">
+			<key column="userNo"></key>
+			<one-to-many class="dto.ReservationDTO"/>
+		</list>
+		<list name="rents" cascade="all">
+			<key column="userNo"></key>
+			<one-to-many class="dto.RentDTO"/>
+		</list>
+    </class>
+     <class name="dto.RentDTO" table="RENTS">
+        <id name="rtNo"/>
+        <property name="bookNo"/>
+        <property name="userNo"/>
+        <property name="rentDate"/>
+        <property name="returnDate"/>
+    </class>
+    <class name="dto.ReservationDTO" table="RESERVATIONS">
+        <id name="rNo"/>
+        <property name="bookNo"/>
+        <property name="userNo"/>
+        <property name="reservationDate"/>
+    </class>
+    <class name="dto.BookDTO" table="BOOKS">
+        <id name="bookNo"/>
+        <property name="title"/>
+        <property name="author"/>
+        <property name="isRent"/>
+    	<list name="reservations" cascade="all">
+			<key column="bookNo"></key>
+			<one-to-many class="dto.ReservationDTO"/>
+		</list>
+		<list name="rents" cascade="all">
+			<key column="bookNo"></key>
+			<one-to-many class="dto.RentDTO"/>
+		</list>
+    </class>
+</hibernate-mapping>

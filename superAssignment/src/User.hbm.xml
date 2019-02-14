@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"D://DTD/hibernate-mapping-3.0.dtd">
+	
+	<hibernate-mapping>
+		<class name="superAssignment.User" table="user">
+			<id name="userNo">
+				<generator class="increment"></generator>
+			</id>
+			<property name="emailId"></property>
+			<property name="userName"></property>
+			<property name="password"></property>
+			<property name="phoneNum"></property>
+			<property name="address"></property>
+			<property name="areaOfExpetise"></property>
+			<property name="q1"></property>
+			<property name="q2"></property>
+			<property name="q3"></property>
+			<property name="status"></property>
+			
+			<list name="articles" cascade="all">
+				<key column="userNo"></key>
+				<index column="type"></index>
+				<one-to-many class="superAssignment.Article"/>
+			</list>
+		</class>
+	</hibernate-mapping>

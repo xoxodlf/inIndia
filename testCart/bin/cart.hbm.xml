@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"D://DTD/hibernate-mapping-3.0.dtd">
+	
+	<hibernate-mapping>
+		<class name="cart.Cart" table="cart">
+			<id name="cart_id">
+				<generator class="increment"></generator>
+			</id>
+			<property name="name"></property>
+			<list name="items" cascade="all">
+				<key column="cart_id"></key>
+				<index column="type"></index>
+				<one-to-many class="cart.Item"/>	
+			</list>
+		</class>
+		
+		<class name="cart.Item" table="item">
+			<id name="item_id">
+				<generator class="increment"></generator>
+			</id>
+			<property name="itemName"></property>
+			<property name="price"></property>
+		</class>
+	</hibernate-mapping>

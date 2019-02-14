@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"D://DTD/hibernate-mapping-3.0.dtd">
+	
+	<hibernate-mapping>
+		<class name="pj.Event" table="event">
+			<id name="eventId">
+				<generator class="increment"></generator>
+			</id>
+			<property name="eventName"></property>
+			<list name="urs" cascade="all">
+				<key column="eventId"></key>
+				<index column="type"></index>
+				<one-to-many class="pj.users"/>	
+			</list>
+		</class>
+	
+		<class name="pj.users" table="hiberWebUsers">
+			<id name="userNo">
+				<generator class="increment"></generator>
+			</id>
+			<property name="userId"></property>
+			<property name="password"></property>
+			<property name="name"></property>
+			<property name="eventId"></property>
+		</class>
+	</hibernate-mapping>

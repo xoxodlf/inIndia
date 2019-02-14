@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"D://DTD/hibernate-mapping-3.0.dtd">
+	
+	<hibernate-mapping>
+		<class name="superAssignment.Article" table="article">
+			<id name="articleNo">
+				<generator class="increment"></generator>
+			</id>
+			<property name="title"></property>
+			<property name="aAbstract"></property>
+			<property name="keyword"></property>
+			<property name="file"></property>
+			<property name="fileKey"></property>
+			<property name="regdate"></property>
+			<property name="status"></property>
+			<property name="userNo"></property>
+			<list name="authors" cascade="all">
+				<key column="articleNo"></key>
+				<index column="type"></index>
+				<one-to-many class="superAssignment.Author"/>
+			</list>
+		</class>
+		
+		<class	name="superAssignment.Author" table="author">
+			<id name="authorNo">
+				<generator class="increment"></generator>
+			</id>
+			<property name="name"></property>
+		</class>
+	</hibernate-mapping>

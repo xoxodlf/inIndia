@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="insertDB.jsp" method="post">
+	<table border="1">
+		<tr><td>ID</td><td><input type="text" name="id" id="id" maxlength="6" required="required"></td></tr>
+		<tr><td>Name</td><td><input type="text" name="name" id="name" maxlength="30" required="required"></td></tr>
+		<tr><td>Sex</td><td><input type="radio" name ="sex" value="Male" checked="checked">Male<input type="radio" name ="sex" value="Female">Female</td></tr>
+		<tr><td>Address</td><td><textarea cols="30" rows="3" name="address" required="required"></textarea></td></tr>
+		<tr><td>Marital Status</td><td><input type="radio" name ="mStatus" value="Single" checked="checked">Single<input type="radio" name ="mStatus" value="Married">Married<input type="radio" name ="mStatus" value="Divorced">Divorced</td></tr>
+		<tr><td>Educational Qualification</td><td><input type="checkbox" value="U.G" name="eq">U.G<input type="checkbox" value="P.G" name="eq">P.G<input type="checkbox" value="Doctorate" name="eq">Doctorate</td></tr>
+	</table>
+	<input type="submit" value="Submit">&nbsp;<input type="reset" value="Reset">
+</form>
+</body>
+</html>

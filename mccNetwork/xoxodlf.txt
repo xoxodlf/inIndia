@@ -1,0 +1,8 @@
+Date : Wed Jul 25 13:16:15 IST 2018
+Content-type : sun.net.www.protocol.http.HttpURLConnection$HttpInputStream@eed1f14
+No Expiry
+No date Info
+Content length : 149
+***************
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.w3schools.com/">here</a></body>

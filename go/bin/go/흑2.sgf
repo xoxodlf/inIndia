@@ -1,0 +1,229 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Chinese]SZ[19]HA[2]KM[7.50]TM[300]OT[10x20 byo-yomi]
+PW[neraimc]PB[petgo3]WR[9d]BR[7d]DT[2018-10-04]PC[The KGS Go Server at http://www.gokgs.com/]C[petgo3 [7d\]: GTP Engine for petgo3 (black): Leela Zero version 0.15 with weightfile 68824bbc Please support Leela Zero for free! (run a client on Google Colaboratory. See https://github.com/gcp/leela-zero)
+]RE[B+Resign]
+;B[dp]BL[299.734]
+;B[pd]BL[299.604]
+;W[cd]WL[295.51]
+;B[pp]BL[276.456]
+;W[fd]WL[284.177]
+;B[hc]BL[253.481]
+;W[qc]WL[276.362]
+;B[pc]BL[230.577]
+;W[qd]WL[272.03]
+;B[qf]BL[207.8]
+;W[qe]WL[247.783]
+;B[pe]BL[185.128]
+;W[pf]WL[224.596]
+;B[rf]BL[162.586]
+;W[pb]WL[217.428]
+;B[ob]BL[140.254]
+;W[qb]WL[212.615]
+;B[nc]BL[118.071]
+;W[pg]WL[187.461]
+;B[qh]BL[96.036]
+;W[ph]WL[144.628]
+;B[qi]BL[74.084]
+;W[pi]WL[132.742]
+;B[qk]BL[52.354]
+;W[qj]WL[109.122]
+;B[rj]BL[30.756]
+;W[pj]WL[106.379]
+;B[rl]BL[9.373]
+;W[qg]WL[85.723]
+;B[rg]BL[20]OB[10]
+;W[rh]WL[78.7]
+;B[ri]BL[20]OB[10]
+;W[re]WL[64.445]
+;B[ol]BL[20]OB[10]C[pet [2k\]: petgo3: At move S11: (net is normal) B: Playouts: 1827, Win: 90.5 W: Playouts: 689, Win: 10.7 Moves till now: -best: -- (Val: 0.00) -worst: Q14 (Val: 2.70). I would have played -
+]
+;W[nd]WL[45.897]C[pet [2k\]: Thats too difficult for nerai
+]
+;B[md]BL[20]OB[10]
+;W[oe]WL[33.018]
+;B[ne]BL[20]OB[10]
+;W[od]WL[26.623]
+;B[oc]BL[20]OB[10]
+;W[of]WL[25.771]
+;B[lc]BL[20]OB[10]
+;W[mb]WL[10.664]
+;B[mc]BL[20]OB[10]
+;W[jc]WL[20]OW[10]
+;B[id]BL[20]OB[10]
+;W[jd]WL[20]OW[10]
+;B[je]BL[20]OB[10]
+;W[ke]WL[20]OW[10]
+;B[kd]BL[20]OB[10]
+;W[kc]WL[20]OW[9]
+;B[kf]BL[20]OB[10]
+;W[le]WL[20]OW[9]
+;B[ld]BL[20]OB[10]
+;W[lf]WL[20]OW[9]
+;B[lb]BL[20]OB[10]
+;W[ic]WL[20]OW[9]
+;B[hd]BL[20]OB[10]
+;W[hb]WL[20]OW[9]
+;B[gb]BL[20]OB[10]
+;W[ib]WL[20]OW[9]
+;B[gc]BL[20]OB[10]
+;W[kb]WL[20]OW[8]
+;B[ja]BL[20]OB[10]
+;W[ka]WL[20]OW[7]
+;B[la]BL[20]OB[10]
+;W[jf]WL[20]OW[6]
+;B[ie]BL[20]OB[10]
+;W[me]WL[20]OW[6]
+;B[ha]BL[20]OB[10]
+;W[kg]WL[20]OW[6]
+;B[ia]BL[20]OB[10]
+;W[cq]WL[20]OW[6]
+;B[dq]BL[20]OB[10]
+;W[cp]WL[20]OW[6]
+;B[co]BL[20]OB[10]
+;W[bo]WL[20]OW[6]
+;B[bn]BL[20]OB[10]
+;W[cn]WL[20]OW[6]
+;B[do]BL[20]OB[10]
+;W[bm]WL[20]OW[6]
+;B[bp]BL[20]OB[10]
+;W[an]WL[20]OW[6]
+;B[bq]BL[20]OB[10]
+;W[cr]WL[20]OW[6]
+;B[br]BL[20]OB[10]
+;W[qq]WL[20]OW[5]
+;B[pq]BL[20]OB[10]
+;W[qp]WL[20]OW[5]
+;B[qr]BL[20]OB[10]
+;W[rr]WL[20]OW[5]
+;B[pr]BL[20]OB[10]
+;W[rs]WL[20]OW[4]
+;B[ro]BL[20]OB[10]
+;W[qo]WL[20]OW[4]
+;B[rn]BL[20]OB[10]
+;W[qm]WL[20]OW[4]
+;B[on]BL[20]OB[10]
+;W[po]WL[20]OW[4]
+;B[oo]BL[20]OB[10]
+;W[pm]WL[20]OW[4]
+;B[pk]BL[20]OB[10]
+;W[rm]WL[20]OW[4]
+;B[sm]BL[20]OB[10]
+;W[rp]WL[20]OW[4]
+;B[sq]BL[20]OB[10]
+;W[sp]WL[20]OW[4]
+;B[sn]BL[20]OB[10]
+;W[om]WL[20]OW[4]
+;B[nm]BL[20]OB[10]
+;W[nl]WL[20]OW[4]
+;B[nk]BL[20]OB[10]
+;W[ml]WL[20]OW[4]
+;B[mn]BL[20]OB[10]
+;W[sh]WL[20]OW[4]
+;B[mk]BL[20]OB[10]
+;W[mm]WL[20]OW[4]
+;B[nn]BL[20]OB[10]
+;W[lk]WL[20]OW[4]
+;B[lj]BL[20]OB[10]
+;W[oj]WL[20]OW[3]
+;B[ok]BL[20]OB[10]
+;W[kk]WL[20]OW[3]
+;B[si]BL[20]OB[10]
+;W[sk]WL[20]OW[3]
+;B[sl]BL[20]OB[10]
+;W[rk]WL[20]OW[3]
+;B[sj]BL[20]OB[10]
+;W[rk]WL[20]OW[3]
+;B[sg]BL[20]OB[10]
+;W[ql]WL[20]OW[3]
+;B[kj]BL[20]OB[10]
+;W[jj]WL[20]OW[3]
+;B[jk]BL[20]OB[10]
+;W[kl]WL[20]OW[3]
+;B[mi]BL[20]OB[10]
+;W[ki]WL[20]OW[3]
+;B[sr]BL[20]OB[10]C[ctdogpdf: all in
+]
+;W[li]WL[20]OW[3]
+;B[mj]BL[20]OB[10]
+;W[mh]WL[20]OW[3]
+;B[jl]BL[20]OB[10]
+;W[km]WL[20]OW[3]
+;B[jn]BL[20]OB[10]
+;W[ln]WL[20]OW[3]
+;B[lm]BL[20]OB[10]
+;W[ll]WL[20]OW[3]
+;B[kn]BL[20]OB[10]
+;W[lo]WL[20]OW[3]
+;B[jm]BL[20]OB[10]
+;W[lm]WL[20]OW[3]
+;B[lp]BL[20]OB[10]C[ctdogpdf: nice shapes
+]
+;W[ko]WL[20]OW[3]
+;B[jp]BL[20]OB[10]
+;W[kp]WL[20]OW[3]
+;B[kq]BL[20]OB[10]
+;W[lq]WL[20]OW[3]
+;B[mo]BL[20]OB[10]
+;W[mp]WL[20]OW[3]
+;B[jo]BL[20]OB[10]
+;W[lp]WL[20]OW[3]
+;B[np]BL[20]OB[10]C[rats [1d?\]: this w has balls, i can say that
+]
+;W[kr]WL[20]OW[2]
+;B[jq]BL[20]OB[10]
+;W[mr]WL[20]OW[2]
+;B[nq]BL[20]OB[10]C[ctdogpdf: this is seki at best right ?
+]
+;W[jr]WL[20]OW[2]
+;B[ir]BL[20]OB[10]C[ctdogpdf: if this lives
+]
+;W[ni]WL[20]OW[2]C[MrFofi [?\]: w dead
+]
+;B[sk]BL[20]OB[10]C[chancer [5k?\]: Y5 for b?
+chancer [5k?\]: nm
+]
+;W[se]WL[20]OW[2]
+;B[js]BL[20]OB[10]C[rats [1d?\]: i think w die
+ctdogpdf: y is a big board
+]
+;W[pl]WL[20]OW[2]
+;B[mq]BL[20]OB[10]
+;W[lr]WL[20]OW[2]
+;B[nr]BL[20]OB[10]C[sadsad: troll
+]
+;W[nj]WL[20]OW[2]
+;B[rk]BL[20]OB[10]C[sadsad: w
+]
+;W[qn]WL[20]OW[2]
+;B[ms]BL[20]OB[10]C[neraimc [9d\]: no chance
+pet [2k\]: Nothing can give h2 to lz
+pet [2k\]: Nobody
+pet [2k\]: No ai
+neraimc [9d\]: i think so too
+neraimc [9d\]: just wanted to see how it fares
+pet [2k\]: Worth a try
+pet [2k\]: Yes
+pet [2k\]: Nerai is strong
+neraimc [9d\]: petgo uses the handicap patch, right?
+pet [2k\]: No
+neraimc [9d\]: Ah?
+pet [2k\]: My own adjustment  
+neraimc [9d\]: ah, it is not public then?
+pet [2k\]: More like original lz
+neraimc [9d\]: oh i see
+pet [2k\]: I have kgs branch of lz
+pet [2k\]: Public
+neraimc [9d\]: I see
+pet [2k\]: Only h3 reasonable
+pet [2k\]: But with w
+pet [2k\]: As b doesn't matter 
+neraimc [9d\]: x)
+neraimc [9d\]: Ok, maybe sometime I'll try again
+neraimc [9d\]: This version of nerai is cut down because we could not get it stable enough
+neraimc [9d\]: So it is a lot slower than it could be :(
+pet [2k\]: You can help to get correct rank
+pet [2k\]: At least 8d
+neraimc [9d\]: What do you mean?
+pet [2k\]: Beated golois even
+neraimc [9d\]: Let's talk in PM
+])

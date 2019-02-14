@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"D://DTD/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+    <class name="FemPackage.User" table="USER">
+        <id name="id"/>
+        <property name="userName"/>
+        <property name="password1"/>
+        <property name="email"/>
+        <property name="phone"/>
+        <property name="city"/>
+    </class>
+</hibernate-mapping>

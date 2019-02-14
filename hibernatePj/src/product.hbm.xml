@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"D://DTD/hibernate-mapping-3.0.dtd">
+	
+	<hibernate-mapping>
+		<class name="d2.product" table="d2_tbl">
+			<id name="Product_Id">
+				<generator class="assigned"></generator>
+			</id>
+			
+			<property name="Product_name"></property>
+			<property name="Expiry_Date"></property>
+			<property name="rate"></property>
+		</class>
+	</hibernate-mapping>
